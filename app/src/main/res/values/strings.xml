@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">DOR</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_products">Products</string>
+    <string name="tab_marketing">Marketing</string>
+    <string name="tab_orders">Orders</string>
+    <string name="tab_profile">Profile</string>
+    
+    <!-- General UI -->
+    <string name="language_toggle">Language / भाषा</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome">Welcome</string>
+    <string name="namaste">Namaste,</string>
+    <string name="keep_creating">Keep creating. Your craft makes a difference.</string>
+    <string name="artisan_verified">Artisan Verified • Handmade. Authentic. Yours.</string>
+    
+    <!-- Products Screen -->
+    <string name="my_products">My Products</string>
+    <string name="add_product">Add Product</string>
+    <string name="no_products">No products yet</string>
+    <string name="no_products_sub">Start showcasing your craft. Add your first product to reach buyers across India.</string>
+    <string name="unnamed_product">Unnamed Product</string>
+    <string name="price_label">Price: ₹%1$s</string>
+    <string name="status_label">Status: %1$s</string>
+    
+    <!-- Orders Screen -->
+    <string name="business_orders">Business Orders</string>
+    <string name="no_orders">No orders or inquiries found yet.</string>
+    <string name="requested_quantity">Quantity: %1$d</string>
+    <string name="requested_unit_price">Requested Unit Price: ₹%1$s</string>
+
+    <!-- Components -->
+    <string name="hero_title">Turn Your Craft into Opportunity</string>
+    <string name="hero_subtitle">List your products, reach buyers and grow your artisan journey with us.</string>
+    <string name="hero_button">Add New Product</string>
+    <string name="hero_badge">🇮🇳 Handmade India</string>
+    
+    <string name="action_tell_story">Tell Story</string>
+    <string name="action_tell_story_sub">Share &amp; Manage</string>
+    <string name="action_enquiries">Enquiries</string>
+    <string name="action_enquiries_sub">Customer Queries</string>
+    <string name="action_marketing">Marketing</string>
+    <string name="action_marketing_sub">Promotion</string>
+    <string name="action_my_business">My Business</string>
+    <string name="action_my_business_sub">Track Income</string>
+    <string name="action_ai_copilot">Artisan Studio</string>
+    <string name="action_ai_copilot_sub">Smart Tools</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_profile_sub">Bio &amp; Details</string>
+    
+    <string name="stats_title">Your Business at a Glance</string>
+    <string name="stats_view_all">View All</string>
+    <string name="stats_total_products">Total Products</string>
+    <string name="stats_total_earnings">Total Earnings</string>
+    <string name="stats_product_views">Product Views</string>
+    <string name="stats_followers">Followers</string>
+    
+    <string name="copilot_title">Artisan Studio</string>
+    <string name="copilot_desc">Smart tools and assistance designed for your artisan journey.</string>
+    <string name="copilot_button">Tell My Story</string>
+    
+    <string name="copilot_enhance">Enhance Photos</string>
+    <string name="copilot_enhance_sub">Presentation ready</string>
+    <string name="copilot_price">Price Advice</string>
+    <string name="copilot_price_sub">Advisory range</string>
+    <string name="copilot_marketing">Marketing Help</string>
+    <string name="copilot_marketing_sub">Content tools</string>
+    <string name="copilot_see_all">See All</string>
+    <string name="copilot_promo_title">Grow Stronger Together</string>
+    <string name="copilot_promo_desc">Access smart tips, pricing tools, and market opportunities.</string>
+    <string name="copilot_promo_subtitle">Tools, tips, and market opportunities built for Indian artisans.</string>
+    <string name="copilot_promo_btn">Explore Resources</string>
+    
+    <string name="insights_title">Business Insights</string>
+    <string name="insights_subtitle">Your business insights will appear here as your activity grows.</string>
+    
+    <string name="customer_enquiries_title">Customer Enquiries</string>
+    <string name="no_enquiries">No customer enquiries yet</string>
+    <string name="bulk_requests_tab">Bulk Requests (%1$d)</string>
+    <string name="confirmed_orders_tab">Confirmed Orders (%1$d)</string>
+    <string name="no_confirmed_orders">No confirmed orders yet</string>
+    <string name="order_id_label">Order ID: %1$s</string>
+    <string name="product_label">Product: %1$s</string>
+    <string name="confirmed_qty_label">Confirmed Qty: %1$s units</string>
+    <string name="unit_price_label">Unit Price: ₹%1$s</string>
+    <string name="requested_label">Requested: %1$s</string>
+    <string name="confirmed_at_label">Confirmed at: %1$s</string>
+    <string name="required_by_label">Required By: %1$s</string>
+    <string name="agreed_terms_label">Agreed: %1$d units @ ₹%2$s/unit</string>
+    <string name="tap_to_review">Tap to review →</string>
+    <string name="total_value_label">Total Value: ₹%1$s</string>
+    <string name="marketing_amplify_title">Amplify Your Craft</string>
+    <string name="marketing_amplify_subtitle">Generate professional posts, captions, and tags in seconds.</string>
+    <string name="marketing_new_post">+ New Post</string>
+    <string name="marketing_no_campaigns">No marketing campaigns yet</string>
+    <string name="marketing_no_campaigns_sub">Select one of your published products to generate marketing content.</string>
+    <string name="marketing_no_tab_posts">No posts in this tab</string>
+    <string name="marketing_no_tab_posts_sub">Select another tab or market a new product.</string>
+    <string name="marketing_market_now">Market a Product Now</string>
+    <string name="marketing_instagram_post">Instagram Post</string>
+    <string name="marketing_view_post">View Post</string>
+    <string name="marketing_publish_now">Publish Now</string>
+    <string name="marketing_review_edit">Review &amp; Edit</string>
+    <string name="tab_all">All</string>
+    <string name="tab_review">Review</string>
+    <string name="tab_ready">Ready</string>
+    <string name="tab_published">Published</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_reject">Reject</string>
+    <string name="btn_accept">Accept Request</string>
+    <string name="btn_respond">Respond</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_market">Market</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="coming_soon_desc">This feature is currently under development. Stay tuned!</string>
+    <string name="return_to_home">Return to Home</string>
+    
+    <!-- Auth & Login/Signup Screen -->
+    <string name="auth_tab_login">Login</string>
+    <string name="auth_tab_signup">Sign Up</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Enter your email or phone to access your account.</string>
+    <string name="login_identifier_hint">Email ID or Phone Number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_loading">Logging in...</string>
+    <string name="signup_title">Create Marketplace Account</string>
+    <string name="signup_subtitle">Choose your role and enter profile information.</string>
+    <string name="signup_role_label">Account Role</string>
+    <string name="role_artisan">Artisan</string>
+    <string name="role_business">Business</string>
+    <string name="role_customer">Customer</string>
+    <string name="signup_lang_label">Preferred Language</string>
+    <string name="signup_name_label">Full Name *</string>
+    <string name="signup_business_name_label">Business / Company Name *</string>
+    <string name="signup_email_label">Email ID (Supabase Auth) *</string>
+    <string name="signup_phone_label">Phone Number *</string>
+    <string name="signup_city_state_label">City, State</string>
+    <string name="signup_country_label">Country</string>
+    <string name="signup_craft_label">Craft Specialization</string>
+    <string name="signup_industry_label">Industry / Sourcing</string>
+    <string name="signup_exp_label">Exp. Yrs</string>
+    <string name="signup_password_label">Create Password (min 6 characters) *</string>
+    <string name="signup_button">Create Account</string>
+    <string name="signup_loading">Registering in Supabase...</string>
+    <string name="err_enter_credentials">Please enter both email/phone and password.</string>
+    <string name="err_enter_name">Please enter your full name.</string>
+    <string name="err_enter_email">Please enter a valid email address for Supabase Auth.</string>
+    <string name="err_enter_phone">Please enter your phone number.</string>
+    <string name="err_enter_password">Please choose a password with at least 6 characters.</string>
+    <string name="msg_registered_success">Account registered in Supabase! Click Login below to sign in.</string>
+    <string name="msg_account_exists">Account already exists! Please click Login below with your password.</string>
+</resources>

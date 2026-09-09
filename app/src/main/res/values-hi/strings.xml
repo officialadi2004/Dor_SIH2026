@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DOR</string>
+    
+    <!-- Navigation Tabs -->
+    <string name="tab_home">होम</string>
+    <string name="tab_products">उत्पाद</string>
+    <string name="tab_marketing">मार्केटिंग</string>
+    <string name="tab_orders">ऑर्डर</string>
+    <string name="tab_profile">प्रोफ़ाइल</string>
+    
+    <!-- General UI -->
+    <string name="language_toggle">भाषा / Language</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome">स्वागत है</string>
+    <string name="namaste">नमस्ते,</string>
+    <string name="keep_creating">बनाते रहें। आपकी कला एक अंतर लाती है।</string>
+    <string name="artisan_verified">कारीगर सत्यापित • हस्तनिर्मित। प्रामाणिक। आपका।</string>
+    
+    <!-- Products Screen -->
+    <string name="my_products">मेरे उत्पाद</string>
+    <string name="add_product">उत्पाद जोड़ें</string>
+    <string name="no_products">अभी तक कोई उत्पाद नहीं</string>
+    <string name="no_products_sub">अपनी कला दिखाना शुरू करें। भारत भर के खरीदारों तक पहुँचने के लिए अपना पहला उत्पाद जोड़ें।</string>
+    <string name="unnamed_product">अनाम उत्पाद</string>
+    <string name="price_label">कीमत: ₹%1$s</string>
+    <string name="status_label">स्थिति: %1$s</string>
+    
+    <!-- Orders Screen -->
+    <string name="business_orders">व्यापारिक ऑर्डर</string>
+    <string name="no_orders">अभी तक कोई ऑर्डर या पूछताछ नहीं मिली है।</string>
+    <string name="requested_quantity">मात्रा: %1$d</string>
+    <string name="requested_unit_price">अनुरोधित इकाई मूल्य: ₹%1$s</string>
+
+    <!-- Components -->
+    <string name="hero_title">अपनी कला को अवसर में बदलें</string>
+    <string name="hero_subtitle">अपने उत्पाद सूचीबद्ध करें, खरीदारों तक पहुँचें और हमारे साथ अपनी यात्रा आगे बढ़ाएं।</string>
+    <string name="hero_button">नया उत्पाद जोड़ें</string>
+    <string name="hero_badge">🇮🇳 हस्तनिर्मित भारत</string>
+    
+    <string name="action_tell_story">कहानी बताएं</string>
+    <string name="action_tell_story_sub">साझा और प्रबंधित करें</string>
+    <string name="action_enquiries">पूछताछ</string>
+    <string name="action_enquiries_sub">ग्राहक प्रश्न</string>
+    <string name="action_marketing">मार्केटिंग</string>
+    <string name="action_marketing_sub">प्रचार</string>
+    <string name="action_my_business">मेरा व्यापार</string>
+    <string name="action_my_business_sub">आय ट्रैक करें</string>
+    <string name="action_ai_copilot">कारीगर स्टूडियो</string>
+    <string name="action_ai_copilot_sub">व्यापार उपकरण</string>
+    <string name="action_profile">प्रोफ़ाइल</string>
+    <string name="action_profile_sub">विवरण</string>
+    
+    <string name="stats_title">आपके व्यापार की एक झलक</string>
+    <string name="stats_view_all">सभी देखें</string>
+    <string name="stats_total_products">कुल उत्पाद</string>
+    <string name="stats_total_earnings">कुल कमाई</string>
+    <string name="stats_product_views">उत्पाद दृश्य</string>
+    <string name="stats_followers">फॉलोअर्स</string>
+    
+    <string name="copilot_title">कारीगर स्टूडियो</string>
+    <string name="copilot_desc">आपकी कारीगरी यात्रा के लिए तैयार किए गए स्मार्ट उपकरण और सहायता।</string>
+    <string name="copilot_button">मेरी कहानी बताएं</string>
+    
+    <string name="copilot_enhance">तस्वीरें बेहतर करें</string>
+    <string name="copilot_enhance_sub">प्रस्तुति के लिए तैयार</string>
+    <string name="copilot_price">मूल्य सलाह</string>
+    <string name="copilot_price_sub">सलाहकारी सीमा</string>
+    <string name="copilot_marketing">मार्केटिंग सहायता</string>
+    <string name="copilot_marketing_sub">सामग्री उपकरण</string>
+    <string name="copilot_see_all">सभी देखें</string>
+    <string name="copilot_promo_title">एक साथ मजबूत बनें</string>
+    <string name="copilot_promo_desc">स्मार्ट टिप्स, मूल्य निर्धारण उपकरण और बाजार के अवसरों तक पहुंचें।</string>
+    <string name="copilot_promo_subtitle">भारतीय कारीगरों के लिए बनाए गए उपकरण, टिप्स और बाजार के अवसर।</string>
+    <string name="copilot_promo_btn">संसाधनों का अन्वेषण करें</string>
+    
+    <string name="insights_title">व्यापार अंतर्दृष्टि</string>
+    <string name="insights_subtitle">जैसे-जैसे आपकी गतिविधि बढ़ेगी, आपके व्यापार की अंतर्दृष्टि यहां दिखाई देगी।</string>
+    
+    <string name="customer_enquiries_title">ग्राहक पूछताछ</string>
+    <string name="no_enquiries">अभी तक कोई ग्राहक पूछताछ नहीं है</string>
+    <string name="bulk_requests_tab">थोक अनुरोध (%1$d)</string>
+    <string name="confirmed_orders_tab">पुष्ट ऑर्डर (%1$d)</string>
+    <string name="no_confirmed_orders">अभी तक कोई पुष्ट ऑर्डर नहीं है</string>
+    <string name="order_id_label">ऑर्डर आईडी: %1$s</string>
+    <string name="product_label">उत्पाद: %1$s</string>
+    <string name="confirmed_qty_label">पुष्ट मात्रा: %1$s इकाइयां</string>
+    <string name="unit_price_label">इकाई मूल्य: ₹%1$s</string>
+    <string name="requested_label">अनुरोधित: %1$s</string>
+    <string name="confirmed_at_label">पुष्टि की गई: %1$s</string>
+    <string name="required_by_label">आवश्यक तिथि: %1$s</string>
+    <string name="agreed_terms_label">सहमत: %1$d इकाइयां @ ₹%2$s/इकाई</string>
+    <string name="tap_to_review">समीक्षा करने के लिए टैप करें →</string>
+    <string name="total_value_label">कुल मूल्य: ₹%1$s</string>
+    <string name="marketing_amplify_title">अपनी कला को बढ़ाएं</string>
+    <string name="marketing_amplify_subtitle">सेकंड में पेशेवर पोस्ट, कैप्शन और टैग बनाएं।</string>
+    <string name="marketing_new_post">+ नई पोस्ट</string>
+    <string name="marketing_no_campaigns">अभी तक कोई मार्केटिंग अभियान नहीं</string>
+    <string name="marketing_no_campaigns_sub">मार्केटिंग सामग्री बनाने के लिए अपना कोई प्रकाशित उत्पाद चुनें।</string>
+    <string name="marketing_no_tab_posts">इस टैब में कोई पोस्ट नहीं</string>
+    <string name="marketing_no_tab_posts_sub">दूसरा टैब चुनें या कोई नया उत्पाद मार्केट करें।</string>
+    <string name="marketing_market_now">अभी उत्पाद मार्केट करें</string>
+    <string name="marketing_instagram_post">इंस्टाग्राम पोस्ट</string>
+    <string name="marketing_view_post">पोस्ट देखें</string>
+    <string name="marketing_publish_now">अभी प्रकाशित करें</string>
+    <string name="marketing_review_edit">समीक्षा करें &amp; संपादित करें</string>
+    <string name="tab_all">सभी</string>
+    <string name="tab_review">समीक्षा</string>
+    <string name="tab_ready">तैयार</string>
+    <string name="tab_published">प्रकाशित</string>
+    <string name="btn_close">बंद करें</string>
+    <string name="btn_reject">अस्वीकार करें</string>
+    <string name="btn_accept">अनुरोध स्वीकार करें</string>
+    <string name="btn_respond">उत्तर दें</string>
+    <string name="btn_send">भेजें</string>
+    <string name="btn_market">मार्केट</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string name="coming_soon_desc">यह सुविधा वर्तमान में विकास के अधीन है। बने रहें!</string>
+    <string name="return_to_home">होम पर वापस जाएं</string>
+    
+    <!-- Auth & Login/Signup Screen -->
+    <string name="auth_tab_login">लॉगिन</string>
+    <string name="auth_tab_signup">साइन अप</string>
+    <string name="login_title">वापसी पर स्वागत है</string>
+    <string name="login_subtitle">अपने खाते में प्रवेश करने के लिए ईमेल या फ़ोन नंबर दर्ज करें।</string>
+    <string name="login_identifier_hint">ईमेल आईडी या फ़ोन नंबर</string>
+    <string name="login_password_hint">पासवर्ड</string>
+    <string name="login_button">लॉगिन करें</string>
+    <string name="login_loading">लॉगिन हो रहा है...</string>
+    <string name="signup_title">मार्केटप्लेस खाता बनाएं</string>
+    <string name="signup_subtitle">अपनी भूमिका चुनें और प्रोफ़ाइल जानकारी भरें।</string>
+    <string name="signup_role_label">खाते की भूमिका</string>
+    <string name="role_artisan">कारीगर</string>
+    <string name="role_business">व्यापार</string>
+    <string name="role_customer">ग्राहक</string>
+    <string name="signup_lang_label">पसंदीदा भाषा</string>
+    <string name="signup_name_label">पूरा नाम *</string>
+    <string name="signup_business_name_label">व्यापार / कंपनी का नाम *</string>
+    <string name="signup_email_label">ईमेल आईडी (सुपाबेस ऑथ) *</string>
+    <string name="signup_phone_label">फ़ोन नंबर *</string>
+    <string name="signup_city_state_label">शहर, राज्य</string>
+    <string name="signup_country_label">देश</string>
+    <string name="signup_craft_label">शिल्प / कला विशेषज्ञता</string>
+    <string name="signup_industry_label">उद्योग / सोर्सिंग</string>
+    <string name="signup_exp_label">अनुभव (वर्ष)</string>
+    <string name="signup_password_label">पासवर्ड बनाएं (कम से कम 6 अक्षर) *</string>
+    <string name="signup_button">खाता बनाएं</string>
+    <string name="signup_loading">खाता बनाया जा रहा है...</string>
+    <string name="err_enter_credentials">कृपया ईमेल/फ़ोन और पासवर्ड दोनों दर्ज करें।</string>
+    <string name="err_enter_name">कृपया अपना पूरा नाम दर्ज करें।</string>
+    <string name="err_enter_email">कृपया सुपाबेस ऑथ के लिए वैध ईमेल दर्ज करें।</string>
+    <string name="err_enter_phone">कृपया अपना फ़ोन नंबर दर्ज करें।</string>
+    <string name="err_enter_password">कृपया कम से कम 6 अक्षरों का पासवर्ड चुनें।</string>
+    <string name="msg_registered_success">खाता बन गया है! साइन इन करने के लिए नीचे लॉगिन पर क्लिक करें।</string>
+    <string name="msg_account_exists">खाता पहले से मौजूद है! कृपया अपने पासवर्ड के साथ लॉगिन करें।</string>
+</resources>

@@ -1,6 +1,6 @@
-# Artknower App
+# डोर (Dor) app
 
-Artknower is an Android application built for SIH2026. It is designed to help artisans manage their profiles, business catalogs, products, and marketing efforts, integrating with Supabase for backend services and authentication.
+डोर is an Android application built for SIH2026. It is designed to help artisans manage their profiles, business catalogs, products, and marketing efforts, integrating with Supabase for backend services and authentication.
 
 ## Main Features
 * **Artisan Profiles:** Allows artisans to register, manage their profiles, and showcase their craft.

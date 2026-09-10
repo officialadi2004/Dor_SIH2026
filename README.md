@@ -83,12 +83,12 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 
 ### Login & Authentication
 <p align="center">
-  <img src="screenshots/login.png" alt="Login Screen" width="280"/>
+  <img src="screenshots/login.png" alt="Login Screen" width="140"/>
 </p>
 
 ### Multilingual Signup
 <p align="center">
-  <img src="screenshots/signup.png" alt="Multilingual Signup" width="280"/>
+  <img src="screenshots/signup.png" alt="Multilingual Signup" width="140"/>
 </p>
 
 ### Dashboard / Home

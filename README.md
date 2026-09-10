@@ -81,28 +81,40 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 
 ## Screenshots
 
-> *Add screenshots of the application below.*
-
 ### Login & Authentication
-![Login Screen](screenshots/login.png)
+<p align="center">
+  <img src="screenshots/login.png" alt="Login Screen" width="280"/>
+</p>
 
-### Multilingual Signup 
-![Multilingual Signup](screenshots/signup.png)
+### Multilingual Signup
+<p align="center">
+  <img src="screenshots/signup.png" alt="Multilingual Signup" width="280"/>
+</p>
 
 ### Dashboard / Home
-![Home Dashboard](screenshots/home.png)
+<p align="center">
+  <img src="screenshots/home.png" alt="Home Dashboard" width="280"/>
+</p>
 
 ### Profile Management
-![Profile Screen](screenshots/profile.png)
+<p align="center">
+  <img src="screenshots/profile.png" alt="Profile Screen" width="280"/>
+</p>
 
 ### Product Catalog
-![Product Management](screenshots/products.png)
+<p align="center">
+  <img src="screenshots/products.png" alt="Product Management" width="280"/>
+</p>
 
 ### Bulk Chat & Orders
-![Bulk Chat](screenshots/chat.png)
+<p align="center">
+  <img src="screenshots/chat.png" alt="Bulk Chat" width="280"/>
+</p>
 
 ### Marketing Hub
-![Marketing Hub](screenshots/marketing.png)
+<p align="center">
+  <img src="screenshots/marketing.png" alt="Marketing Hub" width="280"/>
+</p>
 
 ## Future Improvements
 

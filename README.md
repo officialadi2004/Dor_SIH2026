@@ -86,6 +86,9 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 ### Login & Authentication
 ![Login Screen](screenshots/login.png)
 
+### Multilingual Signup 
+![Multilingual Signup](screenshots/signup.png)
+
 ### Dashboard / Home
 ![Home Dashboard](screenshots/home.png)
 

@@ -87,32 +87,32 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 </p>
 
 ### Multilingual Signup
-<p align="center">
+<p align="left">
   <img src="screenshots/signup.png" alt="Multilingual Signup" width="140"/>
 </p>
 
 ### Dashboard / Home
-<p align="center">
+<p align="left">
   <img src="screenshots/home.png" alt="Home Dashboard" width="140"/>
 </p>
 
 ### Profile Management
-<p align="center">
+<p align="left">
   <img src="screenshots/profile.png" alt="Profile Screen" width="140"/>
 </p>
 
 ### Product Catalog
-<p align="center">
+<p align="left">
   <img src="screenshots/products.png" alt="Product Management" width="140"/>
 </p>
 
 ### Bulk Chat & Orders
-<p align="center">
+<p align="left">
   <img src="screenshots/chat.png" alt="Bulk Chat" width="140"/>
 </p>
 
 ### Marketing Hub
-<p align="center">
+<p align="left">
   <img src="screenshots/marketing.png" alt="Marketing Hub" width="140"/>
 </p>
 

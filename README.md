@@ -82,7 +82,7 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 ## Screenshots
 
 ### Login & Authentication
-<p align="center">
+<p align="left">
   <img src="screenshots/login.png" alt="Login Screen" width="140"/>
 </p>
 
@@ -93,27 +93,27 @@ N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 
 ### Dashboard / Home
 <p align="center">
-  <img src="screenshots/home.png" alt="Home Dashboard" width="280"/>
+  <img src="screenshots/home.png" alt="Home Dashboard" width="140"/>
 </p>
 
 ### Profile Management
 <p align="center">
-  <img src="screenshots/profile.png" alt="Profile Screen" width="280"/>
+  <img src="screenshots/profile.png" alt="Profile Screen" width="140"/>
 </p>
 
 ### Product Catalog
 <p align="center">
-  <img src="screenshots/products.png" alt="Product Management" width="280"/>
+  <img src="screenshots/products.png" alt="Product Management" width="140"/>
 </p>
 
 ### Bulk Chat & Orders
 <p align="center">
-  <img src="screenshots/chat.png" alt="Bulk Chat" width="280"/>
+  <img src="screenshots/chat.png" alt="Bulk Chat" width="140"/>
 </p>
 
 ### Marketing Hub
 <p align="center">
-  <img src="screenshots/marketing.png" alt="Marketing Hub" width="280"/>
+  <img src="screenshots/marketing.png" alt="Marketing Hub" width="140"/>
 </p>
 
 ## Future Improvements

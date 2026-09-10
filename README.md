@@ -1,58 +1,118 @@
-# डोर (Dor) app
+# Dor — Artisan Business Platform
 
-डोर is an Android application built for SIH2026. It is designed to help artisans manage their profiles, business catalogs, products, and marketing efforts, integrating with Supabase for backend services and authentication.
+Dor is an Android application designed to help marginalized and traditional artisans seamlessly manage their digital business presence. The platform provides tools to showcase products, handle bulk orders, manage their artisan profiles, and automate marketing workflows, bridging the gap between authentic craftsmanship and digital commerce.
 
-## Main Features
-* **Artisan Profiles:** Allows artisans to register, manage their profiles, and showcase their craft.
-* **Product Management:** Add, edit, and manage products.
-* **Marketing Hub:** Automated marketing generation and publishing workflows.
-* **Authentication:** Secure login and registration using Supabase Auth.
-* **Image Handling:** Supports image uploads and enhancements.
+## Features
 
-## Technology Stack
-* **Language:** Kotlin
-* **UI Framework:** Jetpack Compose (Material 3)
-* **Architecture:** MVVM (Model-View-ViewModel) with Unidirectional Data Flow
-* **Backend as a Service:** Supabase (Auth, Postgrest, Storage)
-* **Networking:** Ktor Client
-* **Image Loading:** Coil
-* **Navigation:** Jetpack Navigation Compose
-* **Workflow Automation:** n8n webhooks for marketing
+- **Artisan Profile Management:** Create, manage, and verify artisan profiles and origin stories.
+- **Product & Catalog Management:** Add, edit, and organize product listings with associated media.
+- **Image Enhancement:** Integrated image upload and automatic enhancement for professional product shots.
+- **Orders & Enquiries:** Receive, review, and communicate on incoming enquiries and bulk orders via dedicated chat features.
+- **Marketing Hub:** Generate content and trigger automated publishing workflows across social platforms using AI.
+- **Authentication:** Secure signup, login, and session management powered by Supabase Auth.
 
-## Architecture & Components
-* **`ui/screens/`**: Contains all Jetpack Compose screens (Login, Profile, AddProduct, Marketing, etc.).
-* **`data/remote/`**: Providers and clients for remote services like Supabase.
-* **`data/repository/`**: Repository layer connecting UI with data sources.
-* **`ui/navigation/`**: Navigation graphs and routing.
+## Tech Stack
 
-## How to Run the Project
-1. Clone this repository.
-2. Open the project in Android Studio (Jellyfish or newer recommended).
-3. Create a `local.properties` file in the project root (if not present).
-4. Add your required API keys to `local.properties` (see below).
-5. Sync the project with Gradle files.
-6. Run the `app` configuration on an emulator or physical device.
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Repository-based architecture (MVVM)
+- Supabase (Auth, Database, Storage)
+- Ktor Client
+- Coil
+- Jetpack Navigation Compose
+- n8n (for Marketing Workflow Automation)
+- Gradle Kotlin DSL
 
-## Required Configuration
-Before running the app, you need to configure your environment variables. 
-Create or edit `local.properties` in the project root and add the following keys:
+## Architecture
+
+The project adheres to a unidirectional data flow and repository pattern, providing a clean separation of concerns:
+
+- **`ui/screens`**: Contains Jetpack Compose views mapping to specific app pages (Profile, Dashboard, Marketing, etc.).
+- **`ui/components`**: Reusable Compose UI elements used across different screens.
+- **`ui/navigation`**: Defines routes and Jetpack Navigation Compose logic.
+- **`data/model`**: Kotlin data classes and serialization structures.
+- **`data/remote`**: Supabase clients, Ktor providers, and connection logic.
+- **`data/repository`**: Abstracts data sources and APIs (e.g., AuthRepository, ProductRepository, MarketingRepository) to provide clean interfaces to the UI layer.
+- **`utils`**: Helper functions and general utilities.
+
+The UI observes state managed by the repositories, which in turn communicate with `data/remote` services to fetch or mutate data from the Supabase backend and n8n webhooks.
+
+## Project Structure
+
+```
+app/
+├── src/main/java/com/artknower/app/
+│   ├── data/
+│   │   ├── local/
+│   │   ├── model/
+│   │   ├── remote/
+│   │   └── repository/
+│   ├── ui/
+│   │   ├── components/
+│   │   ├── navigation/
+│   │   ├── screens/
+│   │   └── theme/
+│   └── utils/
+└── src/main/res/
+```
+
+## Configuration
+
+To protect sensitive keys, backend configuration is strictly managed through a `local.properties` file that is **not** committed to version control. The project (`app/build.gradle.kts`) is already configured to read these variables automatically and expose them safely at build time.
+
+You must create a `local.properties` file in the root directory and define the following variables:
 
 ```properties
-# Supabase Configuration
-SUPABASE_URL="YOUR_SUPABASE_URL"
-SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY"
-
-# n8n Webhooks Configuration
-N8N_MARKETING_GENERATE_URL="YOUR_N8N_WEBHOOK_URL_FOR_GENERATE"
-N8N_MARKETING_PUBLISH_URL="YOUR_N8N_WEBHOOK_URL_FOR_PUBLISH"
+SUPABASE_URL=YOUR_SUPABASE_URL
+SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+N8N_MARKETING_GENERATE_URL=YOUR_N8N_WEBHOOK_URL
+N8N_MARKETING_PUBLISH_URL=YOUR_N8N_WEBHOOK_URL
 ```
-*(Make sure to update `app/build.gradle.kts` to load these properties instead of hardcoding them!)*
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project in Android Studio (Jellyfish or newer recommended).
+3. Create a `local.properties` file in the root directory.
+4. Add your required configuration values (as shown above).
+5. Sync the project with Gradle files.
+6. Run the `app` configuration on an emulator or physical Android device.
 
 ## Screenshots
-> *(Screenshots placeholder: Add screenshots of the Login, Profile, and Marketing screens here)*
+
+> *Add screenshots of the application below.*
+
+### Login & Authentication
+![Login Screen](screenshots/login.png)
+
+### Dashboard / Home
+![Home Dashboard](screenshots/home.png)
+
+### Profile Management
+![Profile Screen](screenshots/profile.png)
+
+### Product Catalog
+![Product Management](screenshots/products.png)
+
+### Bulk Chat & Orders
+![Bulk Chat](screenshots/chat.png)
+
+### Marketing Hub
+![Marketing Hub](screenshots/marketing.png)
 
 ## Future Improvements
-* Improve offline caching using Room Database.
-* Add comprehensive Unit and UI tests.
-* Enhance accessibility support across all Compose screens.
-* Add CI/CD pipeline (e.g., GitHub Actions) for automated testing and builds.
+
+- Implementation of Unit and UI test coverage (e.g., JUnit, Espresso, Compose Testing).
+- Robust offline caching mechanism (e.g., using Room Database) to support artisans in low-connectivity regions.
+- CI/CD pipeline automation via GitHub Actions.
+- Comprehensive accessibility improvements across all Compose screens (e.g., TalkBack optimization, scalable fonts).
+
+## Security
+
+- **Ignored Configuration:** `local.properties` is strictly ignored via `.gitignore`.
+- **No Committed Credentials:** Secret API keys and webhook URLs are never committed or exposed in the repository.
+- **Local Environment:** Users and developers cloning this repository must provide their own backend configuration instance to compile and run the application successfully.
+
+---
+*Built with Kotlin & Jetpack Compose.*
